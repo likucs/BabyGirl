@@ -108,15 +108,15 @@ from DaisyX import (
 
 # NOTE: Module order is not guaranteed, specify that in the config file!
 
-from DaisyX.modules import ALL_MODULES
+from innexiaBot.modules import ALL_MODULES
 
-from DaisyX.modules.helper_funcs.alternate import typing_action
+from innexiaBot.modules.helper_funcs.alternate import typing_action
 
-from DaisyX.modules.helper_funcs.chat_status import is_user_admin
+from innexiaBot.modules.helper_funcs.chat_status import is_user_admin
 
-from DaisyX.modules.helper_funcs.misc import paginate_modules
+from innexiaBot.modules.helper_funcs.misc import paginate_modules
 
-from DaisyX.modules.helper_funcs.readable_time import get_readable_time
+from innexiaBot.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
 
