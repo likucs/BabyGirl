@@ -208,7 +208,7 @@ GDPR = []
 
 for module_name in ALL_MODULES:
 
-    imported_module = importlib.import_module("DaisyX.modules." + module_name)
+    imported_module = importlib.import_module("innexiaBot.modules." + module_name)
 
     if not hasattr(imported_module, "__mod_name__"):
 
